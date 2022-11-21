@@ -1,11 +1,16 @@
 @font-face {
-    font-family: 'Satoshi', monospace;
+    font-family: "Satoshi";
     src: url(/fonts/Satoshi_Complete/Satoshi-Regular.otf);
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body{
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: normal;
     background-color: #EFEFEF;
+    color: #161616;
 }
 .header{
     box-sizing: border-box;
@@ -40,8 +45,8 @@ background-color: #EFEFEF;
     order: 1;
     flex-grow: 0;
     flex: none;
-    margin-left: 7px;
-    margin-top: 60px;
+    margin-left: 1%;
+    margin-top: 7%;
 }
 
 .logo{    
@@ -50,7 +55,8 @@ background-color: #EFEFEF;
     order: 0;
     flex-grow: 0;
     flex: none;
-    margin: 24px 0 0 24px;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 .nav{
     display: flex;
@@ -63,8 +69,8 @@ background-color: #EFEFEF;
     width: 355px;
     height: 19px;
     font-size: 20px;
-    margin-left: 35%;
-    margin-top: 9%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
 .home_but{
     order: 0;
@@ -83,9 +89,10 @@ background-color: #EFEFEF;
     display: inline-flex;
     padding: 0;
     order: 3;
-    margin-top: 8%;
-    margin-left: 35%;
+    margin-top: 5%;
+    margin-left: 25%;
     stroke-width: 0.2px;
+    font-family: "Satoshi";
 }
 
 .EN{
@@ -101,20 +108,57 @@ background-color: #EFEFEF;
     display: inline-flex;
     fill: #161616;
     order: 4;
-    margin-left: 10%;
-    margin-top: 8%;
+    margin-left: 15%;
+    margin-top: 5%;
     background-color: #EFEFEF;
     color: #161616;   
     stroke: #161616;
     stroke-width: 2px;
 }
-
-.work.text{
-    stroke: #161616;
-    stroke-width: 1px;
-    size: 50px;
+.work_with:hover{
+    
+}
+.paragraph_1{
+    font-size: 25px;
+    margin: 12% 10%;
+}
+ 
+.creation{
+    background-color: #161616;
+    color: #EFEFEF;
+    margin: 0%;
+    padding: 0%;
+    height: 1000px;
+    /* width: 1368.480px; */
 }
 
-.arrow{
+.services{
+    margin-left: 10%;
+    margin-bottom: -10%;
+    padding-top: 10%;
+    font-size: 20px;}
 
+.Cr_title{
+    font-size: 60px;
+    margin: 10% 10% -10% 10%;
+}
+
+.columns{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.column_1{
+    float: left;
+    margin: 0% 10%;
+    order: 0;
+    display: table;
+    position:static ;
+}
+.column_2{
+    float: inline-flex;
+    order: 1;
+    display: table;
+    margin: 10% 55%;
 }
