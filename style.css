@@ -2,32 +2,28 @@
     font-family: "Satoshi";
     src: url(/fonts/Satoshi_Complete/Satoshi-Regular.otf);
 }
+
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    overflow: auto;
 }
 body{
-    font-family: "Satoshi";
+    font-family: "Satoshi" ,sans-serif;
     font-weight: normal;
     background-color: #EFEFEF;
     color: #161616;
+    margin: 0%;
 }
 .header{
     box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 0px 14px;
-gap: 14px;
-
-width: 180px;
-height: 50px;
-
-background-color: #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 14px;
+    gap: 14px;
+    width: 180px;
+    height: 50px;
+    background-color: #EFEFEF;
 }
 .logotype{
     display: inline-flex;
@@ -112,12 +108,8 @@ background-color: #EFEFEF;
     margin-top: 5%;
     background-color: #EFEFEF;
     color: #161616;   
-    stroke: #161616;
-    stroke-width: 2px;
 }
-.work_with:hover{
-    
-}
+
 .paragraph_1{
     font-size: 25px;
     margin: 12% 10%;
@@ -129,7 +121,8 @@ background-color: #EFEFEF;
     margin: 0%;
     padding: 0%;
     height: 1000px;
-    /* width: 1368.480px; */
+    width: 100%;
+
 }
 
 .services{
